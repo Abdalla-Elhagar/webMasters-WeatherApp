@@ -1,0 +1,27 @@
+.content {
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.238);
+    position: relative;
+    padding: 15px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.fiveDays{
+    overflow-x: scroll;
+    
+}
+.fiveDays::-webkit-scrollbar {
+    height: 8px;
+}
+.fiveDays::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 99px;
+}
+.fiveDays::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.fiveDays .card {
+    min-width: 120px;
+}
